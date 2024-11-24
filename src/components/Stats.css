@@ -1,0 +1,48 @@
+/* Stats Section Styling */
+.stats {
+  background-color: #f9f9f9;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.stat-item h3 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Media Queries for stats */
+@media (max-width: 1024px) {
+  .stats {
+    gap: 1rem;
+  }
+
+  .stat-item {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .stat-item {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-item {
+    max-width: 100%;
+  }
+}
